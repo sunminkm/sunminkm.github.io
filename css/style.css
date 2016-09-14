@@ -28,4 +28,9 @@ img.banner_image {
   to {
     visibility: hidden;
   }
+}
 
+.hanging_indent {
+    padding-left: 1.1em;
+    text-indent: -1.1em;
+}

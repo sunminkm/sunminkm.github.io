@@ -1,13 +1,12 @@
 body {
 	background-image: url("../images/background.png");
     background-repeat: no-repeat;
-    background-attachment: fixed;
 	background-size:contain;
 }
 
 header {
-    margin-top: 50px;
-    border-bottom: 0px;
+    margin-top: 30px;
+    border-bottom: 0px; 
 }
 
 img.banner_image {
@@ -31,6 +30,6 @@ img.banner_image {
 }
 
 .hanging_indent {
-    padding-left: 1.1em;
-    text-indent: -1.1em;
+    padding-left: 4em;
+    text-indent: -2em;
 }

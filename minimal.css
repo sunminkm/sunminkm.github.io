@@ -9,8 +9,8 @@
 /* Layout */
 body { background-color: #fff; color: #333;	font: 18px/20px "HelveticaNeue-Light", "HelveticaNeue", Helvetica, Arial, sans-serif; line-height:140%;}
 
-header { width: 100%; margin: 0 auto; position: relative; padding: 20px 0; border-bottom: 1px solid #ddd; margin-bottom: 20px; line-height:140%;}
-.logo { font-size: 28px; color: #333; }
+header { width: 100%; margin: 0 auto; position: relative; padding: 20px 0; border-bottom: 1px solid #ddd; margin-bottom: 20px; line-height:100%;}
+.logo { font-size: 40px; color: #333; }
 
 nav ul { margin: 0; }
 nav ul li { display: inline; margin-right: 20px; font-size: 16px; line-height: 28px; color: #333; }
@@ -47,12 +47,13 @@ a { color: #105CB6; text-decoration: none; }
 a:hover, a:focus { color: #105CB6; text-decoration: underline; }
 a:active { color: #105CB6; }
 
-h1 { font-size: 30px; line-height: 36px; margin-bottom: 20px; }
-h2 { font-size: 24px; line-height: 20px; margin-bottom: 20px; }
+h1 { font-size: 40px; line-height: 36px; margin-bottom: 20px; }
+h2 { font-size: 40px; line-height: 20px; margin-bottom: 20px; }
 h3 { font-size: 20px; line-height: 20px; margin-bottom: 10px; }
 h4 { font-size: 16px; line-height: 20px; margin-bottom: 10px; }
 h5 { font-size: 14px; line-height: 20px; margin-bottom: 20px; }
 h6 { font-size: 12px; line-height: 20px; margin-bottom: 20px; }
+h7 { font-size: px; line-height: 20px; margin-bottom: 20px; }
 h1,h2,h3,h4,h5,h6 { color: #333; }
 
 p { margin-bottom: 20px; }

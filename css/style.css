@@ -5,7 +5,27 @@ body {
 	background-size:contain;
 }
 
+header {
+    margin-top: 50px;
+    border-bottom: 0px;
+}
+
 img.banner_image {
     display: block;
     margin: auto;
 }
+
+.blink {
+  animation: blink-animation 1s steps(2, start) infinite;
+  -webkit-animation: blink-animation 1s steps(2, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+
